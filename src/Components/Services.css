@@ -1,0 +1,75 @@
+
+#service-section {
+  padding: 60px 0;
+  background-color: black;
+}
+.main-heading.left-heading {
+    text-align: left;
+    color: WHITE;
+}
+.main-heading.left-heading h3 {
+   color: #3FE881;
+}
+.allp.left-para
+{
+  padding-left: 20px;
+}
+.main-ser-box {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  overflow: hidden; /* hide sliding element when off-screen */
+}
+.main-ser-box .service-heading {
+    position: absolute;
+    top: 27px;
+    left: 27px;
+    font-size: 18px;
+    color: #3FE881;
+}
+.main-ser-box img {
+   width: 100%;
+}
+.bottom-text
+{
+ background: linear-gradient(
+    to top,
+    rgba(0, 128, 0, 0.9),
+    rgba(0, 128, 0, 0.01)
+  );
+  padding: 100px 20px 20px 20px;
+  position: absolute;
+  bottom: 0;
+  transform: translateY(110%); /* start off below */
+  opacity: 0;
+  transition: transform 0.45s cubic-bezier(.2,.8,.2,1), opacity 0.35s ease;
+ 
+  border-radius: 20px;
+  z-index: 1;
+  pointer-events: none;
+}
+.main-ser-box:hover .bottom-text,
+.main-ser-box:focus-within .bottom-text {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+.bottom-text strong{
+  font-size: 25px;
+  text-transform: capitalize;
+
+}
+.bottom-text p {
+  padding-top: 10px;
+    font-size: 14px;
+    line-height: 23px;
+}
+.bottom-text a
+{
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+}
+.three-services {
+  margin-top: 50px !important;
+}

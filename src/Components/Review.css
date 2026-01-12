@@ -1,0 +1,98 @@
+.color-black h3, .color-black h4, .color-black p {
+    color: black !important;
+}
+#review-section {
+    margin-bottom: 50px;
+}
+.review-black
+{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 30px;
+margin: auto;
+display: table;
+width: 100%;
+text-align: center;
+ font-family: 'Roboto', sans-serif;
+ padding: 20px 10px;
+}
+.slidespan 
+{
+  font-size: 48px;
+}
+.review-cards {
+  position: relative;
+}
+
+.mySwiper {
+  position: relative;
+}
+.swiper-button-prev svg
+{
+  display: none;
+}
+.swiper-button-next svg
+{
+  display: none;
+}
+.swiper-button-prev
+{
+  position: absolute;
+    left: 680px !important;
+    width: 100px;
+    top: 286px !important;
+  background-image: url('../assets/left-arrow.png');
+  background-position: center;  /* center the image */
+  background-repeat: no-repeat; /* prevent tiling */
+}
+.swiper-button-next{
+  position: absolute;
+    width: 100px;
+    right: 0px !important;
+    top: 286px !important;
+background-image: url('../assets/right-arrow.png');
+  background-position: center;  /* center the image */
+  background-repeat: no-repeat; /* prevent tiling */
+}
+
+.stars-list li
+{
+  display: inline-block;
+  color: #3FE881;
+  font-size: 30px;
+  margin: 10px 5px;
+}
+.review-black strong
+{
+  font-size: 24px;
+ 
+}
+.review-black.faq-black span{
+  font-size: 18px;
+}
+.review-black h4{
+  font-size: 22px;
+   margin:  10px 0 10px 0 !important;
+   font-weight: 600;
+}
+.username
+{
+  font-size: 24px;
+  color: black;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+.slides-content
+{
+  position: relative;
+}
+.review-slide
+{
+  background-color: #F5F5F5;
+  padding: 10px 50px;
+  border-radius: 30px;
+}
+.slides-content {
+    padding: 0 28px;
+}

@@ -1,0 +1,14 @@
+.who-stats
+{
+  
+  padding: 40px;
+}
+.stat-image-content {
+    background-color: black;
+  border-radius: 30px;
+}
+.stat {
+    width: auto !important;
+    margin: 0 30px;
+    display: inline-block;
+}

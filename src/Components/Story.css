@@ -1,0 +1,42 @@
+
+#story-section {
+    margin: 5% 13px 50px 71px;
+    position: relative;
+}
+/* Top Section */
+
+
+.inner-heading
+{
+  font-size: 50px;
+  font-weight: 500;
+   font-family: 'Roboto', sans-serif;
+   text-align: left;
+}
+.inner-heading.center-heading
+{
+  text-align: center;
+}
+.story-image {
+    position: absolute;
+    bottom: -210px;
+    right: 275px;
+}
+
+.stat h3 {
+  font-size: 40px;
+  color: #2dff9f;
+  margin-bottom: 5px;
+   font-family: 'Roboto', sans-serif;
+}
+
+.stat span {
+  font-size: 20px;
+  color: #2dff9f;
+   font-family: 'Roboto', sans-serif;
+}
+.story-image img {
+  width: 100%;
+  
+}
+

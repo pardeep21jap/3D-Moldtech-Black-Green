@@ -1,0 +1,100 @@
+import React from 'react'
+import icons from "../assets/icons2.png";
+import modelling from "../assets/3d-modelling.png";
+import printing from "../assets/3d-printing.png";
+import prototyping from "../assets/prototyping.png";
+import "./Services.css"
+
+
+function Services() {
+  return (
+    <div>
+      <section id='service-section'>
+        <div className="container">
+          <div className="service-outer">
+            <div className="service-inner">
+
+              <div className="main-heading left-heading">
+                <ul>
+                  <li>
+                    <img src={icons} alt="icons" />
+                  </li>
+                  <li>
+                    <h3 className='allheading'> 3D Moldtech Services</h3>
+                  </li>
+                </ul>
+
+
+                <h4 className='allsubtitle white-allsubtitle'>Where innovation goes hand in hand < br />with creativity.</h4>
+                <p className='allp left-para'>
+                  We’re a Canadian company focused on getting you results. At Morin 3D, we prototype, iterate, and manufacture precision parts using in-house scanning, CAD, and industrial-grade 3D printing.
+                </p>
+              </div>
+
+              <div className="row three-services">
+                {/* service-box1 */}
+                <div className="col-lg-4 service-box">
+                  <div className="main-ser-box" tabIndex="0">
+                    <img src={modelling} alt="3D Modelling" />
+                    <h3 className='service-heading'>3D Modelling</h3>
+
+                    <div className="bottom-text">
+                      <strong>model strategy</strong>
+                      <p>
+                        From concept models to functional prototypes and end-use parts, we offer a range of industrial-grade 3D printing technologies to suit your project needs.
+                      </p>
+                      <a href="#">read more....</a>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+                {/* service-box2 */}
+                <div className="col-lg-4 service-box">
+                  <div className="main-ser-box" tabIndex="0">
+                    <img src={printing} alt="3d printing" />
+                    <h3 className='service-heading'>3D Modelling</h3>
+
+                    <div className="bottom-text">
+                      <strong>model strategy</strong>
+                      <p>
+                        From concept models to functional prototypes and end-use parts, we offer a range of industrial-grade 3D printing technologies to suit your project needs.
+                      </p>
+                      <a href="#">read more....</a>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+                {/* service-box3 */}
+                <div className="col-lg-4 service-box">
+                  <div className="main-ser-box" tabIndex="0">
+                    <img src={prototyping} alt="prototyping" />
+                    <h3 className='service-heading'>3D Modelling</h3>
+
+                    <div className="bottom-text">
+                      <strong>model strategy</strong>
+                      <p>
+                        From concept models to functional prototypes and end-use parts, we offer a range of industrial-grade 3D printing technologies to suit your project needs.
+                      </p>
+                      <a href="#">read more....</a>
+
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  )
+}
+
+export default Services

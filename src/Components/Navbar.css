@@ -1,0 +1,226 @@
+/* NAVBAR GENERAL */
+.navbar {
+  width: 100%;
+  background: transparent;
+  padding: 10px 20px;
+  box-shadow: none;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+}
+.dropdown-toggle::after {
+    display: none !important;
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding-top: 0px;
+    position: relative;
+    top: 8px;
+}
+/* Logo */
+.nav-logo img {
+  width: 250px;
+}
+
+/* MENU */
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 54px;
+    padding: 12px 21px !important;
+}
+.nav-menu li
+{
+  padding: 10px 0;
+}
+.nav-menu li a
+{
+  font-size: 18px;
+  color: black;
+  text-transform: capitalize;
+  padding: 15px 0 0px 0;
+  position: relative;
+   font-family: 'Roboto', sans-serif;
+   transition: 0.3s;
+}
+.nav-menu li a:hover {
+  color: #3FE881;
+}
+.nav-menu li a .dropdown-toggle:hover {
+  color: #3FE881;
+}
+.nav-menu li a, 
+.dropdown-toggle {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  cursor: pointer;
+   padding-left: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.dropdown-toggle:hover {
+  color: #3FE881;
+}
+.dropdown-toggle {
+  background: none;
+  border: none;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  transition: 0.3s;
+}
+
+.caret {
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+/* DROPDOWN MENU */
+.dropdown-menu {
+  position: absolute;
+  background: white;
+  list-style: none;
+  padding: 10px 0;
+  margin-top: 8px;
+  display: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+
+.dropdown-menu li {
+  padding: 0px 20px;
+}
+    .nav-menu.active {
+    display: block !important;
+    padding: 10px 23px;
+}
+.dropdown-menu li a {
+  display: block;
+  width: 100%;
+}
+
+
+/* button */
+.get-quote {
+    display: flex;
+    align-items: center;
+}
+.all-button {
+  display: inline-block; /* anchors behave like buttons */
+  text-align: center;
+  background-color: #3FE881;
+  color: black; /* base text color */
+  border: 1px solid #3FE881;
+  border-radius: 25px;
+  padding: 10px 30px;
+  font-size: 16px;
+  box-shadow: #222 0px 2px 6px -1px;
+  cursor: pointer;
+  text-transform: capitalize;
+  
+    font-family: 'Roboto', sans-serif;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  transition: color .25s ease;
+  
+    text-decoration: none;
+} 
+.all-button:hover
+{
+  color: #3FE881 !important;
+  z-index: 10;
+}
+.all-button:before {
+    -webkit-transition: .5s all ease;
+    transition: .5s all ease;
+    position: absolute;
+    border-color: black;
+    border-radius: 20px;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0.5;
+    content: '';
+    background-color: black;
+    z-index: 1; /* sit beneath the button content */
+    pointer-events: none; /* don't swallow hover/click */
+}  
+.all-button:hover:before {
+    left: 0;
+    right: 0;
+    opacity: 1;
+} 
+
+/* ensure button text stays above overlay */
+.all-button > * {
+  position: relative;
+  z-index: 3;
+}
+
+/* ensure span text color changes on hover — use specific selectors to override other rules */
+.all-button > span {
+  transition: color .25s ease;
+  color: black; /* explicit base color */
+}
+
+/* target both button hover and parent link/get-quote hover/focus/active states */
+.all-button:hover > span,
+.get-quote:hover .all-button > span,
+.get-quote a:hover .all-button > span,
+.get-quote a:focus .all-button > span,
+.get-quote a:active .all-button > span {
+  color: #3FE881 !important;
+}
+/* MOBILE RESPONSIVE */
+@media (max-width: 992px) {
+
+  .nav-toggle {
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        float: right;
+        position: relative;
+        right: -193px;
+    }
+
+  .nav-toggle span {
+    width: 28px;
+    height: 3px;
+    background: #222;
+  }
+
+  .nav-menu {
+    position: absolute;
+    left: 0;
+    top: 116px;
+    width: 100%;
+    flex-direction: column;
+    background: #fff;
+    padding: 20px 0;
+    gap: 15px;
+    display: none;
+  }
+
+  .nav-menu.active {
+    display: flex;
+  }
+
+  /* Dropdown inside mobile */
+  .dropdown-menu {
+    position: static;
+    box-shadow: none;
+  }
+}

@@ -1,0 +1,26 @@
+#mision-vision
+{
+  margin: 70px 0px;
+}
+.mv-inner {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.mission-div
+{
+  background-color: #F5F5F5;
+  border-radius: 30px;
+  padding: 20px 50px 20px 20px;
+}
+.mission-div .mision-icon
+{
+  color: #3FE881;
+  font-size: 50px;
+}
+.mission-div h4
+{
+  font-size: 30px;
+margin: 15px 0px;
+   font-family: 'Roboto', sans-serif;
+}

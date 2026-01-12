@@ -1,0 +1,69 @@
+#slider-section
+{
+  margin-top: 80px;
+}
+.slider-content h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #3FE881;
+    margin-bottom: 16px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+}
+.slider-content img
+{
+  width: 43px;
+    margin-right: 5px;
+}
+.slider-content h3
+{
+    font-size: 56px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 16px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.slider-content p {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.left-content {
+    padding: 0px !important;
+}
+
+/* Swiper visibility and layout */
+.right-slider {
+  min-height: 260px; /* ensure container is visible */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../assets/tray.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 20%;
+}
+
+.slider-swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.slider-swiper .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  background: #f8f8f8;
+  padding: 30px;
+  border-radius: 8px;
+}
+.right-slider img
+{
+margin: auto;
+display: block;
+}

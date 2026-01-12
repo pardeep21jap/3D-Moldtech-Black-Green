@@ -1,0 +1,24 @@
+.main-quote
+{
+  background-color: black;
+  border-radius: 24px;
+  padding: 40px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+
+}
+.main-quote h3
+{
+  text-align: center;
+  font-size: 42px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.all-button.quote-btn
+{
+ text-align: center;
+ margin: auto;
+ display: table;
+}

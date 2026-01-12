@@ -1,0 +1,54 @@
+#faq-section {
+  padding: 60px 0px;
+}
+.accordion-button
+{
+  background-color: black !important;
+  color: white !important;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 23px !important;
+}
+.faq-call{
+  position: relative;
+}
+.faq-call .faq-phone{
+  position: absolute;
+  top: 20px;
+  right: 43%;
+  background-color: #3FE881;
+  border-radius: 30px;
+  padding: 20px;
+  font-size: 18px;
+}
+.review-black.faq-black {
+    padding: 99px 0px 17px 0px;
+}
+.review-black.faq-black h4 {
+  padding: 25px 10px 25px 10px;
+}
+.faq-stamp img {
+   
+  margin: auto;
+  display: block;
+  transform-origin: center center;
+  animation: stamp-spin 12s linear infinite;
+margin-top: 8px;
+}
+
+.accordion-button::after {
+  background-image: none !important;
+  content: "+" !important;
+  font-size: 22px;
+  font-weight: 600;
+  color: white !important;
+  transform: none;
+}
+/* When accordion is open */
+.accordion-button:not(.collapsed)::after {
+  content: "_" !important; /* or "-" if you prefer */
+  font-size: 26px;
+  position: relative;
+  top: 15px;
+}
+
