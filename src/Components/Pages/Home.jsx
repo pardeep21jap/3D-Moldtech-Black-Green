@@ -14,17 +14,16 @@ import Newsletter from '../Newsletter';
 function Home() {
   return (
     <>
-
       <Slider />
       <Ribbon />
       <Who />
       <Services />
       <Why />
- <Ribbon />
- < Review/>
- < News/>
- < Faq/>
- < Newsletter/>
+      <Ribbon />
+      < Review />
+      < News />
+      < Faq />
+      < Newsletter />
     </>
   )
 }

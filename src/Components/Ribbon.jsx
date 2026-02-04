@@ -59,7 +59,7 @@ function Ribbon() {
 
                     <div className="ribbon-icon">
                       <img src={greenicon} alt="greenicon" />
-                      <strong>Prototyping</strong>
+                      <strong>Prototyping (LVIM)</strong>
                     </div>
 
                   </SwiperSlide>
@@ -99,7 +99,7 @@ function Ribbon() {
 
                     <div className="ribbon-icon">
                       <img src={greenicon} alt="greenicon" />
-                      <strong>Prototyping</strong>
+                      <strong>Prototyping (LVIM)</strong>
                     </div>
 
                   </SwiperSlide>

@@ -5,7 +5,8 @@ import stamp from "../assets/stamp1.png";
 import "./Faq.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
-function Faq() {
+
+function Modelingfaq() {
   return (
     <div>
       <section id='faq-section'>
@@ -48,7 +49,7 @@ function Faq() {
                     <div class="accordion-item">
                       <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          Do you support low-volume production?
+                          Do you support Modelling?
                         </button>
                       </h2>
                       <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -130,4 +131,4 @@ function Faq() {
   )
 }
 
-export default Faq
+export default Modelingfaq

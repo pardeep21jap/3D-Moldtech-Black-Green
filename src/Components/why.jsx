@@ -62,37 +62,33 @@ function Why() {
                   <div className="why-grid">
                     <div className="why-card">
                       <div className="greenicon"><FontAwesomeIcon icon={faUser} className="black-user" /></div>
-                      <h3>Certified Experts</h3>
+                      <h3>Canadian Manufacturing</h3>
                       <p>
-                        We're a Canadian company focused on getting you results.
-                        At Morin 3D, we prototype, iterate, and manufacture precision.
+                        Proudly Canadian, we offer responsive communication, local accountability, and trusted manufacturing standards that ensure consistent quality and reliable project execution.
                       </p>
                     </div>
 
                     <div className="why-card">
                       <div className="greenicon"><FontAwesomeIcon icon={faUser} className="black-user" /></div>
-                      <h3>Certified Experts</h3>
+                      <h3>In-House Capabilities</h3>
                       <p>
-                        We're a Canadian company focused on getting you results.
-                        At Morin 3D, we prototype, iterate, and manufacture precision.
+                        From 3D modelling and industrial 3D printing to low-volume injection molding, all processes are managed in-house to ensure speed, quality control, and consistent results.
                       </p>
                     </div>
 
                     <div className="why-card">
                       <div className="greenicon"><FontAwesomeIcon icon={faUser} className="black-user" /></div>
-                      <h3>Certified Experts</h3>
+                      <h3>Rapid & Faster Time</h3>
                       <p>
-                        We're a Canadian company focused on getting you results.
-                        At Morin 3D, we prototype, iterate, and manufacture precision.
+                        Our rapid prototyping approach shortens development cycles, identifies design risks early, and accelerates the transition from concept to production.
                       </p>
                     </div>
 
                     <div className="why-card">
                       <div className="greenicon"><FontAwesomeIcon icon={faUser} className="black-user" /></div>
-                      <h3>Certified Experts</h3>
+                      <h3>Precision Quality</h3>
                       <p>
-                        We're a Canadian company focused on getting you results.
-                        At Morin 3D, we prototype, iterate, and manufacture precision.
+                        We deliver accurate, repeatable, production-grade parts engineered for functional validation, and seamless scalability into manufacturing.
                       </p>
                     </div>
                   </div>

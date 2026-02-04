@@ -98,10 +98,11 @@ function Navbar() {
                   </button>
 
                   <ul className={`dropdown-menu ${dropdownOpen ? "show" : ""}`}>
+                    <li><Link to="/Modeling" onClick={closeAll}>3D Modeling</Link></li>
+                    <li><Link to="/Printing" onClick={closeAll}>3D printing</Link></li>
                     <li><Link to="/Prototyping" onClick={closeAll}>Prototyping</Link></li>
-                    <li><Link to="/Printing" onClick={closeAll}>printing</Link></li>
-                    <li><Link to="/Modeling" onClick={closeAll}>Modeling</Link></li>
-
+                    {/* <li><Link to="/Printing" onClick={closeAll}>printing</Link></li>
+                    <li><Link to="/Modeling" onClick={closeAll}>Modeling</Link></li> */}
                   </ul>
                 </li>
 

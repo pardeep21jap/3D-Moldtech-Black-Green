@@ -27,7 +27,7 @@ function Services() {
 
                 <h4 className='allsubtitle white-allsubtitle'>Where innovation goes hand in hand < br />with creativity.</h4>
                 <p className='allp left-para'>
-                  We’re a Canadian company focused on getting you results. At Morin 3D, we prototype, iterate, and manufacture precision parts using in-house scanning, CAD, and industrial-grade 3D printing.
+                  Based in Canada, 3D Moldtech specializes in rapid prototyping and low-volume manufacturing of precision components. Using in-house industrial 3D printing, CAD engineering, and injection molding, we help bring products to market efficiently and reliably.
                 </p>
               </div>
 
@@ -39,9 +39,9 @@ function Services() {
                     <h3 className='service-heading'>3D Modelling</h3>
 
                     <div className="bottom-text">
-                      <strong>model strategy</strong>
+                      <strong>3D Modelling</strong>
                       <p>
-                        From concept models to functional prototypes and end-use parts, we offer a range of industrial-grade 3D printing technologies to suit your project needs.
+                        Part design creates precise, functional components using parametric software. It focuses on exact dimensions, geometric constraints, and specific manufacturing constraints like 3D printing or machining.
                       </p>
                       <a href="#">read more....</a>
 
@@ -55,12 +55,12 @@ function Services() {
                 <div className="col-lg-4 service-box">
                   <div className="main-ser-box" tabIndex="0">
                     <img src={printing} alt="3d printing" />
-                    <h3 className='service-heading'>3D Modelling</h3>
+                    <h3 className='service-heading'>3D Printing</h3>
 
                     <div className="bottom-text">
-                      <strong>model strategy</strong>
+                      <strong>3D Printing</strong>
                       <p>
-                        From concept models to functional prototypes and end-use parts, we offer a range of industrial-grade 3D printing technologies to suit your project needs.
+                        Our in-house 3D printing delivers precise, production-ready parts using industrial materials, enabling fast iteration, functional validation, and low-volume manufacturing.
                       </p>
                       <a href="#">read more....</a>
 
@@ -74,12 +74,12 @@ function Services() {
                 <div className="col-lg-4 service-box">
                   <div className="main-ser-box" tabIndex="0">
                     <img src={prototyping} alt="prototyping" />
-                    <h3 className='service-heading'>3D Modelling</h3>
+                    <h3 className='service-heading'>Prototyping (LVIM)</h3>
 
                     <div className="bottom-text">
-                      <strong>model strategy</strong>
+                      <strong>Prototyping (LVIM)</strong>
                       <p>
-                        From concept models to functional prototypes and end-use parts, we offer a range of industrial-grade 3D printing technologies to suit your project needs.
+                        Low-Volume Injection Molding prototyping produces production-quality parts quickly, reducing risk, validating designs, and accelerating the transition from prototype to manufacturing.
                       </p>
                       <a href="#">read more....</a>
 

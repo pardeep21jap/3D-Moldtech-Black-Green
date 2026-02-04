@@ -2,17 +2,17 @@ import React from 'react'
 
 import { Link } from "react-router-dom";
 import Banner from '../Banner';
-import Protostory from '../Protostory';
+import Modelingstory from '../Modelingstory';
 import bannerImg from "../../assets/banner.png";
 import Ribbon from '../Ribbon';
 import Faq from '../Faq';
 import Newsletter from '../Newsletter';
-import Stat from '../Stat';
-import Tabs from '../Tabs';
-import Coverflow from '../Coverflow';
-import Cards from '../Cards';
-import Quote from '../Quote';
-
+import Modestat from '../Modestat';
+import Modetabs from '../Modetabs';
+import Modecoverflow from '../Modecoverflow';
+import Modecards from '../Modecards';
+import Modelingquote from '../Modelingquote';
+import Modelingfaq from '../Modelingfaq';
 
 
 function Modeling() {
@@ -23,14 +23,14 @@ function Modeling() {
 
           bannerImage={bannerImg} />
 
-        <Protostory />
-        <Stat />
-        <Tabs />
-        <Cards />
-        <Coverflow />
-        <Quote />
+        <Modelingstory />
+        <Modestat />
+        <Modetabs />
+        <Modecards />
+        <Modecoverflow />
+        <Modelingquote />
         <Ribbon />
-        <Faq />
+        <Modelingfaq />
         <Newsletter />
       </>
     </>
