@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Newsletter.css"
-import newsletterImg from "../assets/newsletter.png"
+import newsletterImg from "../assets/newsletter1.webp"
 import { Link } from "react-router-dom";
 
 function Newsletter() {

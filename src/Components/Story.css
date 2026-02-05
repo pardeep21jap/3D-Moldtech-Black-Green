@@ -19,8 +19,8 @@
 }
 .story-image {
     position: absolute;
-    bottom: -210px;
-    right: 275px;
+    bottom: -212px;
+    right: 280px;
 }
 
 .stat h3 {
@@ -36,7 +36,8 @@
    font-family: 'Roboto', sans-serif;
 }
 .story-image img {
-  width: 100%;
+  width: 115%;
+  height: auto;
   
 }
 

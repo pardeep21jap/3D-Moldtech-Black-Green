@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Story.css"
 import { Link } from "react-router-dom";
-import storyImg from "../assets/story.png";
+import storyImg from "../assets/story1.webp";
 function Story() {
   
   return (

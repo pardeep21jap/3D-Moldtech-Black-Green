@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Link } from "react-router-dom";
 import Banner from '../Banner';
-import bannerImg from "../../assets/banner.png";
+import bannerImg from "../../assets/banner printing1.webp";
 import Ribbon from '../Ribbon';
 import Faq from '../Faq';
 import Newsletter from '../Newsletter';

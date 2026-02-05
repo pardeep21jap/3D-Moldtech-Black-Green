@@ -1,8 +1,9 @@
 .newsletter-image img {
     position: relative;
-    bottom: 160px;
-    right: 11px;
-    width: 465px;
+    bottom: 135px;
+    right: 0px;
+    width: 500px;
+    border-radius: 20px;
 }
 .newsletter-content {
   flex: 1;

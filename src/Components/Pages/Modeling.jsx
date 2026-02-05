@@ -3,7 +3,7 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import Banner from '../Banner';
 import Modelingstory from '../Modelingstory';
-import bannerImg from "../../assets/banner.png";
+import bannerImg from "../../assets/banner modeling2.webp";
 import Ribbon from '../Ribbon';
 import Faq from '../Faq';
 import Newsletter from '../Newsletter';

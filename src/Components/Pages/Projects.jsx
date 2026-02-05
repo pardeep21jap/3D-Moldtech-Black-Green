@@ -1,6 +1,6 @@
 import React from 'react'
 import Banner from '../Banner'
-import bannerImg from "../../assets/banner.png";
+import bannerImg from "../../assets/banner projects.webp";
 import Newsletter from '../Newsletter';
 import Protabs from '../Protabs';
 

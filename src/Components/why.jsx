@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import bird from "../assets/bird.jpeg";
-import camera from "../assets/camera.jpeg";
+import bird from "../assets/bird1.webp";
+import camera from "../assets/camera1.webp";
 import icons from "../assets/icons.jpg";
 import ovel from "../assets/ovel.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

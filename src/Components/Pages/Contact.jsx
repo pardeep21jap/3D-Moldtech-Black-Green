@@ -1,7 +1,7 @@
 import React from 'react'
 import Banner from '../Banner'
 import Story from '../Story'
-import bannerImg from "../../assets/banner.png";
+import bannerImg from "../../assets/banner contactus.webp";
 import Stat from '../Stat';
 import Mv from '../Mv';
 import Ribbon from '../Ribbon';
