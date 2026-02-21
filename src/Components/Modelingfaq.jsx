@@ -109,7 +109,7 @@ function Modelingfaq() {
                     <h4>Our team will answer all your question. <br />
                       We ensure a quick response.</h4>
 
-                    <Link to="" className="all-button" role="button">
+                    <Link to="/ContactUs" className="all-button" role="button">
                       <span>contact us</span>
                     </Link>
 

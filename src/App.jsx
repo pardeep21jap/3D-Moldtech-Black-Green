@@ -11,7 +11,7 @@ import Printing from './Components/Pages/Printing.jsx'
 import Modeling from './Components/Pages/Modeling.jsx'
 import Contact from './Components/Pages/Contact.jsx'
 import Projects from './Components/Pages/Projects.jsx'
-
+import Blogs from './Components/Pages/Blogs.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -29,6 +29,7 @@ function App() {
         <Route path="/Modeling" element={<Modeling />} />
         <Route path="/ContactUs" element={<Contact />} />
         <Route path="/Projects" element={<Projects />} />
+        <Route path="/Blogs" element={<Blogs />} />
       </Routes>
       <Footer />
     </>

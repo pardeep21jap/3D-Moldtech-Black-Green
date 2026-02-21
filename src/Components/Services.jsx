@@ -43,7 +43,7 @@ function Services() {
                       <p>
                         Part design creates precise, functional components using parametric software. It focuses on exact dimensions, geometric constraints, and specific manufacturing constraints like 3D printing or machining.
                       </p>
-                      <a href="#">read more....</a>
+                      <a href="/Modeling">read more....</a>
 
                     </div>
 
@@ -62,7 +62,7 @@ function Services() {
                       <p>
                         Our in-house 3D printing delivers precise, production-ready parts using industrial materials, enabling fast iteration, functional validation, and low-volume manufacturing.
                       </p>
-                      <a href="#">read more....</a>
+                      <a href="/printing">read more....</a>
 
                     </div>
 
@@ -81,7 +81,7 @@ function Services() {
                       <p>
                         Low-Volume Injection Molding prototyping produces production-quality parts quickly, reducing risk, validating designs, and accelerating the transition from prototype to manufacturing.
                       </p>
-                      <a href="#">read more....</a>
+                      <a href="/Prototyping">read more....</a>
 
                     </div>
 

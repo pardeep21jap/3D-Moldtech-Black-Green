@@ -107,7 +107,8 @@ function Navbar() {
                 </li>
 
                 <li><Link to="/Projects" onClick={closeAll}>Projects</Link></li>
-                <li><Link to="/contactUs" onClick={closeAll}>Contact Us</Link></li>
+                 <li><Link to="/Blogs" onClick={closeAll}>Blogs</Link></li>
+                <li><Link to="/ContactUs" onClick={closeAll}>Contact Us</Link></li>
 
               </ul>
 
@@ -117,7 +118,7 @@ function Navbar() {
 
           <div className="get-quote col-2">
 
-            <Link to="" className="all-button" role="button">
+            <Link to="/ContactUs" className="all-button" role="button">
               <span>Quote Request</span>
             </Link>
           </div>

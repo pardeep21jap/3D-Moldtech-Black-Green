@@ -13,7 +13,7 @@ function Modelingquote() {
               <h3>
                 ready to discuss your Modelling project?
               </h3>
-              <Link to="" className="all-button quote-btn" role="button">
+              <Link to="/ContactUs" className="all-button quote-btn" role="button">
                 <span>get a quote</span>
               </Link>
             </div>

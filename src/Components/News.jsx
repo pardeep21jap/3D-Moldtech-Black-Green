@@ -41,7 +41,7 @@ function News() {
 
                   <h4 className='card-title'>Morin 3D Launches New Website to Enhance User Experience</h4>
                   <p className='card-desc'>Morin 3D, a leading provider of 3D printing services, is excited to announce the launch of its new website designed to improve user experience and showcase its innovative solutions.</p>
-                    <Link to="" className="all-button" role="button">
+                    <Link to="/Blogs" className="all-button" role="button">
                       <span>read now</span>
                     </Link>
                 </div>
@@ -53,7 +53,7 @@ function News() {
                   </div>
                   <h4 className='card-title'>Revolutionizing Prototyping: How Morin 3D is Changing the Game</h4>
                   <p className='card-desc'>Discover how Morin 3D is transforming the prototyping process with cutting-edge technology and unparalleled expertise in 3D printing services.</p>
-                   <Link to="" className="all-button" role="button">
+                   <Link to="/Blogs" className="all-button" role="button">
                       <span>read now</span>
                     </Link>
                 </div>
@@ -65,7 +65,7 @@ function News() {
                   </div>
                   <h4 className='card-title'>Revolutionizing Prototyping: How Morin 3D is Changing the Game</h4>
                   <p className='card-desc'>Discover how Morin 3D is transforming the prototyping process with cutting-edge technology and unparalleled expertise in 3D printing services.</p>
-                   <Link to="" className="all-button" role="button">
+                   <Link to="/Blogs" className="all-button" role="button">
                       <span>read now</span>
                     </Link>
                 </div>

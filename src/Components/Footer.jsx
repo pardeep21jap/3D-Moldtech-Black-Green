@@ -37,18 +37,21 @@ export default function Footer() {
         {/* Links */}
         <div className="footer-links">
           <h4>Company</h4>
-          <a href="#">About us</a>
-          <a href="#">Services</a>
-          <a href="#">Gallery</a>
-          <a href="#">Contact Us</a>
+          <ul style={{listStyle: 'none', padding: 0}}>
+            <li><Link to="/AboutUs">About us</Link></li>
+            <li><Link to="/Projects">Projects</Link></li>
+            <li><Link to="/Blogs">Blogs</Link></li>
+            <li><Link to="/ContactUs">Contact Us</Link></li>
+          </ul>
         </div>
 
         <div className="footer-links">
           <h4>Services</h4>
-          <a href="#">3D Modeling</a>
-          <a href="#">3D Printing</a>
-          <a href="#">Prototyping</a>
-          <a href="#">Hacks Blog</a>
+          <ul style={{listStyle: 'none', padding: 0}}>
+            <li><Link to="/Modeling">3D Modeling</Link></li>
+            <li><Link to="/Printing">3D Printing</Link></li>
+            <li><Link to="/Prototyping">Prototyping</Link></li>
+          </ul>
         </div>
 
         <div className="footer-links">
@@ -82,4 +85,3 @@ export default function Footer() {
     </footer>
   );
 }
-

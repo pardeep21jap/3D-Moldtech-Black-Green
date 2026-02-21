@@ -36,7 +36,7 @@ function Slider() {
 
 
 
-                  <Link to="" className="all-button" role="button">
+                  <Link to="/projects" className="all-button" role="button">
                     <span>Discover more</span>
                   </Link>
 

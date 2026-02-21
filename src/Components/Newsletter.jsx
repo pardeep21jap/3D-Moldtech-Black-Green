@@ -22,7 +22,7 @@ function Newsletter() {
 
                 </h2>
                 
-                <Link to="" className="all-button" role="button">
+                <Link to="/contactUs" className="all-button" role="button">
                                      <span>contact us</span>
                                    </Link>
 

@@ -62,8 +62,11 @@
   border-width: 2px;
   border-radius: 25px;
   cursor: pointer;
+  margin-left: -11px;
 }
-
+.file-upload {
+    padding: 0 !important;
+}
 /* RIGHT CARD */
 .contact-info {
   background: #000;

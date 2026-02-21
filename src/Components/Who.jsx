@@ -92,7 +92,7 @@ function Who() {
                       </div>
                     </li>
                   </ul>
-                     <Link to="" className="all-button" role="button">
+                     <Link to="/AboutUs" className="all-button" role="button">
                     <span>About Us</span>
                   </Link>
                 </div>
