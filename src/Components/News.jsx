@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import icons from "../assets/icons2.png";
-import modelling from "../assets/3d-modelling.png";
-import printing from "../assets/3d-printing.png";
-import prototyping from "../assets/prototyping.png";
+import icons from "../assets/icons22.png";
+import modelling from "../assets/3d-modelling.webp";
+import printing from "../assets/3d-printing.webp";
+import prototyping from "../assets/prototyping.webp";
 import "./News.css"
 
 function News() {

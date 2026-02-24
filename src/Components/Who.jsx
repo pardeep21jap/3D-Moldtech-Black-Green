@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Link } from "react-router-dom";
-import icons from "../assets/icons.jpg";
+import icons from "../assets/icons11.png";
 import "./Who.css"
 import bird from "../assets/bird.jpeg";
 import stamp from "../assets/stamp1.png";
@@ -41,9 +41,6 @@ function Who() {
                 </div>
                 <div className="right-graphics">
 
-                  <div className='semicircle1'></div>
-
-                  <div className='semicircle2'></div>
                   <div className='stamp-img'>
                     <img src={stamp} alt="stamp" />
                   </div>
@@ -71,14 +68,14 @@ function Who() {
                       <FontAwesomeIcon icon={faGear} className='pro-icons' />
                       <strong>Innovative Prototyping Experts</strong>
                       <div className="progress">
-                        <div className="progress-bar" role="progressbar" style={{ width: '60%' }} aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+                        <div className="progress-bar" role="progressbar" style={{ width: '60%' }} aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">8 Years</div>
                       </div>
                     </li>
                     <li>
                       <FontAwesomeIcon icon={faLightbulb} className='pro-icons' />
                       <strong>Making Great Ideas Possible</strong>
                       <div className="progress">
-                        <div className="progress-bar" role="progressbar" style={{ width: '75%' }} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                        <div className="progress-bar" role="progressbar" style={{ width: '75%' }} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">275 projects</div>
                       </div>
                     </li>
                     <li>
@@ -88,7 +85,7 @@ function Who() {
 
 
                       <div className="progress">
-                        <div className="progress-bar" role="progressbar" style={{ width: '80%' }} aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                        <div className="progress-bar" role="progressbar" style={{ width: '80%' }} aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">10 Years</div>
                       </div>
                     </li>
                   </ul>

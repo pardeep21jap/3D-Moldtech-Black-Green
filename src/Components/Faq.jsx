@@ -1,5 +1,5 @@
 import React from 'react'
-import icons from "../assets/icons.jpg";
+import icons from "../assets/icons11.png";
 import { Link } from "react-router-dom";
 import stamp from "../assets/stamp1.png";
 import "./Faq.css"
@@ -96,6 +96,23 @@ function Faq() {
                         </div>
                       </div>
                     </div>
+{/* item-6 */}
+                     <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                          How fast is your turnaround time?
+                        </button>
+                      </h2>
+                      <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Turnaround time depends on part complexity, material selection, and volume. However, because all processes are handled in-house, we significantly reduce delays caused by outsourcing, enabling rapid prototyping, quick design iterations, and faster overall delivery timelines compared to traditional manufacturing workflows.
+                        </div>
+                      </div>
+                    </div>
+
+
+
+
                   </div>
                 </div>
 

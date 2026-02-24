@@ -1,8 +1,8 @@
 import React from 'react'
-import icons from "../assets/icons2.png";
-import modelling from "../assets/3d-modelling.png";
-import printing from "../assets/3d-printing.png";
-import prototyping from "../assets/prototyping.png";
+import icons from "../assets/icons22.png";
+import modelling from "../assets/3d-modelling.webp";
+import printing from "../assets/3d-printing.webp";
+import prototyping from "../assets/prototyping.webp";
 import "./Services.css"
 
 
@@ -35,7 +35,7 @@ function Services() {
                 {/* service-box1 */}
                 <div className="col-lg-4 service-box">
                   <div className="main-ser-box" tabIndex="0">
-                    <img src={modelling} alt="3D Modelling" />
+                    <img src={modelling} alt="3D Modelling" style={{ width: '100%', height: '550px', objectFit: 'cover' }} />
                     <h3 className='service-heading'>3D Modelling</h3>
 
                     <div className="bottom-text">
@@ -54,7 +54,7 @@ function Services() {
                 {/* service-box2 */}
                 <div className="col-lg-4 service-box">
                   <div className="main-ser-box" tabIndex="0">
-                    <img src={printing} alt="3d printing" />
+                    <img src={printing} alt="3d printing" style={{ width: '100%', height: '550px', objectFit: 'cover' }} />
                     <h3 className='service-heading'>3D Printing</h3>
 
                     <div className="bottom-text">
@@ -73,11 +73,11 @@ function Services() {
                 {/* service-box3 */}
                 <div className="col-lg-4 service-box">
                   <div className="main-ser-box" tabIndex="0">
-                    <img src={prototyping} alt="prototyping" />
-                    <h3 className='service-heading'>Prototyping (LVIM)</h3>
+                    <img src={prototyping} alt="prototyping" style={{ width: '100%', height: '550px', objectFit: 'cover' }} />
+                    <h3 className='service-heading'>Low Volume Injection Molding</h3>
 
                     <div className="bottom-text">
-                      <strong>Prototyping (LVIM)</strong>
+                      <strong>Low Volume Injection Molding</strong>
                       <p>
                         Low-Volume Injection Molding prototyping produces production-quality parts quickly, reducing risk, validating designs, and accelerating the transition from prototype to manufacturing.
                       </p>

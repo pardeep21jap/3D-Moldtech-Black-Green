@@ -1,7 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
-import icons from "../assets/icons.jpg";
+import icons from "../assets/icons11.png";
 import users from "../assets/users.png";
 
 import { SwiperSlide, Swiper } from 'swiper/react'

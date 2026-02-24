@@ -1,5 +1,5 @@
 import React from 'react'
-import icons from "../assets/icons.jpg";
+import icons from "../assets/icons11.png";
 import { Link } from "react-router-dom";
 import stamp from "../assets/stamp1.png";
 import "./Faq.css"

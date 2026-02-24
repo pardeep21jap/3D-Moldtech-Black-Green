@@ -26,90 +26,90 @@ function Ribbon() {
                   // no stopping
                   delay: 0,               // no pause
                   disableOnInteraction: false,
-                }} slidesPerView={5} loop={true}
+                }} slidesPerView={'auto'} loop={true}
                   speed={5000}
 
 
 
-                  spaceBetween={20}
+                  spaceBetween={100}
                   modules={[Navigation, Pagination, Autoplay]} className="mySwiper">
 
 
 
-                  <SwiperSlide className='ribbon-slider'>
+                  <SwiperSlide className='ribbon-slider' style={{ width: 'auto', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
 
-                    <div className="ribbon-icon">
-                      <img src={greenicon} alt="greenicon" />
-                      <strong>3D Modeling</strong>
+                    <div className="ribbon-icon" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px' }}>
+                      <img src={greenicon} alt="greenicon" style={{ margin: 0 }} />
+                      <strong style={{ whiteSpace: 'nowrap' }}>3D Modeling</strong>
                     </div>
 
 
                   </SwiperSlide>
-                  <SwiperSlide className='ribbon-slider'>
+                  <SwiperSlide className='ribbon-slider' style={{ width: 'auto', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
 
 
-                    <div className="ribbon-icon">
-                      <img src={greenicon} alt="greenicon" />
-                      <strong>3D Printing</strong>
+                    <div className="ribbon-icon" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px' }}>
+                      <img src={greenicon} alt="greenicon" style={{ margin: 0 }} />
+                      <strong style={{ whiteSpace: 'nowrap' }}>3D Printing</strong>
                     </div>
 
                   </SwiperSlide>
-                  <SwiperSlide className='ribbon-slider'>
+                  <SwiperSlide className='ribbon-slider' style={{ width: 'auto', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
 
 
-                    <div className="ribbon-icon">
-                      <img src={greenicon} alt="greenicon" />
-                      <strong>Prototyping (LVIM)</strong>
-                    </div>
-
-                  </SwiperSlide>
-
-                  <SwiperSlide className='ribbon-slider'>
-
-
-                    <div className="ribbon-icon">
-                      <img src={greenicon} alt="greenicon" />
-                      <strong>Injection Molding</strong>
+                    <div className="ribbon-icon" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px' }}>
+                      <img src={greenicon} alt="greenicon" style={{ margin: 0 }} />
+                      <strong style={{ whiteSpace: 'nowrap' }}>Prototyping</strong>
                     </div>
 
                   </SwiperSlide>
 
-                  <SwiperSlide className='ribbon-slider'>
+                  <SwiperSlide className='ribbon-slider' style={{ width: 'auto', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
 
 
-                    <div className="ribbon-icon">
-                      <img src={greenicon} alt="greenicon" />
-                      <strong>3D Modeling</strong>
+                    <div className="ribbon-icon" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px' }}>
+                      <img src={greenicon} alt="greenicon" style={{ margin: 0 }} />
+                      <strong style={{ whiteSpace: 'nowrap' }}>Low Volume Injection Molding</strong>
                     </div>
 
                   </SwiperSlide>
 
-                  <SwiperSlide className='ribbon-slider'>
+                  <SwiperSlide className='ribbon-slider' style={{ width: 'auto', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
 
 
-                    <div className="ribbon-icon">
-                      <img src={greenicon} alt="greenicon" />
-                      <strong>3D Printing</strong>
+                    <div className="ribbon-icon" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px' }}>
+                      <img src={greenicon} alt="greenicon" style={{ margin: 0 }} />
+                      <strong style={{ whiteSpace: 'nowrap' }}>3D Modeling</strong>
                     </div>
 
                   </SwiperSlide>
 
-                  <SwiperSlide className='ribbon-slider'>
+                  <SwiperSlide className='ribbon-slider' style={{ width: 'auto', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
 
 
-                    <div className="ribbon-icon">
-                      <img src={greenicon} alt="greenicon" />
-                      <strong>Prototyping (LVIM)</strong>
+                    <div className="ribbon-icon" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px' }}>
+                      <img src={greenicon} alt="greenicon" style={{ margin: 0 }} />
+                      <strong style={{ whiteSpace: 'nowrap' }}>3D Printing</strong>
                     </div>
 
                   </SwiperSlide>
 
-                  <SwiperSlide className='ribbon-slider'>
+                  <SwiperSlide className='ribbon-slider' style={{ width: 'auto', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
 
 
-                    <div className="ribbon-icon">
-                      <img src={greenicon} alt="greenicon" />
-                      <strong>Injection Molding</strong>
+                    <div className="ribbon-icon" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px' }}>
+                      <img src={greenicon} alt="greenicon" style={{ margin: 0 }} />
+                      <strong style={{ whiteSpace: 'nowrap' }}>Prototyping</strong>
+                    </div>
+
+                  </SwiperSlide>
+
+                  <SwiperSlide className='ribbon-slider' style={{ width: 'auto', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+
+
+                    <div className="ribbon-icon" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px' }}>
+                      <img src={greenicon} alt="greenicon" style={{ margin: 0 }} />
+                      <strong style={{ whiteSpace: 'nowrap' }}> Low Volume Injection Molding</strong>
                     </div>
 
                   </SwiperSlide>

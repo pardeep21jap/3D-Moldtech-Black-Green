@@ -10,10 +10,10 @@
     font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
 }
-.slider-content img
-{
-  width: 43px;
-    margin-right: 5px;
+.slider-content img {
+    width: 40px;
+    margin-right: 0px;
+    margin-bottom: 4px;
 }
 .slider-content h3
 {
@@ -66,4 +66,5 @@
 {
 margin: auto;
 display: block;
+height: 100px;
 }

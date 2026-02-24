@@ -4,10 +4,17 @@ import { Autoplay, EffectCoverflow, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
-import modelling from "../assets/3d-modelling.png";
+import modelling from "../assets/3d-modelling.webp";
 
-import prototyping from "../assets/prototyping.png";
-import printing from "../assets/3d-printing.png";
+import prototyping1 from "../assets/prototype1.webp";
+import prototyping2 from "../assets/prototype2.webp";
+import prototyping3 from "../assets/prototype3.webp";
+import prototyping4 from "../assets/prototype4.webp";
+import prototyping5 from "../assets/prototype5.webp";
+import prototyping6 from "../assets/prototype6.webp";
+import prototyping7 from "../assets/prototype7.webp";
+import prototyping8 from "../assets/prototype8.webp";
+
 import "./Coverflow.css"
 
 
@@ -40,74 +47,68 @@ const CoverflowSlider = () => {
           modules={[EffectCoverflow, Autoplay]}
           className="coverflowSwiper"
         >
-
-
           <SwiperSlide className="coverflowSlide">
-            <img src={modelling} alt="3D Modelling" />
+            <img src={prototyping1} alt="prototype1" />
+          </SwiperSlide>
+          
+          <SwiperSlide className="coverflowSlide">
+            <img src={prototyping2} alt="prototype2" />
           </SwiperSlide>
 
           <SwiperSlide className="coverflowSlide">
-            <img src={printing} alt="3d printing" />
+            <img src={prototyping3} alt="prototype3" />
           </SwiperSlide>
 
           <SwiperSlide className="coverflowSlide">
-            <img src={prototyping} alt="prototyping" />
-          </SwiperSlide>
-          <SwiperSlide className="coverflowSlide">
-            <img src={modelling} alt="3D Modelling" />
+            <img src={prototyping4} alt="prototype4" />
           </SwiperSlide>
 
           <SwiperSlide className="coverflowSlide">
-            <img src={printing} alt="3d printing" />
+            <img src={prototyping5} alt="prototype5" />
+          </SwiperSlide>
+          <SwiperSlide className="coverflowSlide">
+            <img src={prototyping6} alt="prototype6" />
           </SwiperSlide>
 
           <SwiperSlide className="coverflowSlide">
-            <img src={prototyping} alt="prototyping" />
-          </SwiperSlide>
-          <SwiperSlide className="coverflowSlide">
-            <img src={modelling} alt="3D Modelling" />
+            <img src={prototyping7} alt="prototype7" />
           </SwiperSlide>
 
           <SwiperSlide className="coverflowSlide">
-            <img src={printing} alt="3d printing" />
+            <img src={prototyping8} alt="prototype8" />
+          </SwiperSlide>
+          
+          <SwiperSlide className="coverflowSlide">
+            <img src={prototyping1} alt="prototype1" />
+          </SwiperSlide>
+          
+          <SwiperSlide className="coverflowSlide">
+            <img src={prototyping2} alt="prototype2" />
           </SwiperSlide>
 
           <SwiperSlide className="coverflowSlide">
-            <img src={prototyping} alt="prototyping" />
-          </SwiperSlide>
-          <SwiperSlide className="coverflowSlide">
-            <img src={modelling} alt="3D Modelling" />
+            <img src={prototyping3} alt="prototype3" />
           </SwiperSlide>
 
           <SwiperSlide className="coverflowSlide">
-            <img src={printing} alt="3d printing" />
+            <img src={prototyping4} alt="prototype4" />
           </SwiperSlide>
 
           <SwiperSlide className="coverflowSlide">
-            <img src={prototyping} alt="prototyping" />
+            <img src={prototyping5} alt="prototype5" />
           </SwiperSlide>
           <SwiperSlide className="coverflowSlide">
-            <img src={modelling} alt="3D Modelling" />
+            <img src={prototyping6} alt="prototype6" />
           </SwiperSlide>
 
           <SwiperSlide className="coverflowSlide">
-            <img src={printing} alt="3d printing" />
+            <img src={prototyping7} alt="prototype7" />
           </SwiperSlide>
 
           <SwiperSlide className="coverflowSlide">
-            <img src={prototyping} alt="prototyping" />
-          </SwiperSlide>
-          <SwiperSlide className="coverflowSlide">
-            <img src={modelling} alt="3D Modelling" />
+            <img src={prototyping8} alt="prototype8" />
           </SwiperSlide>
 
-          <SwiperSlide className="coverflowSlide">
-            <img src={printing} alt="3d printing" />
-          </SwiperSlide>
-
-          <SwiperSlide className="coverflowSlide">
-            <img src={prototyping} alt="prototyping" />
-          </SwiperSlide>
         </Swiper>
       </div>
     </section>

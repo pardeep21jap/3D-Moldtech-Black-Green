@@ -1,9 +1,8 @@
 import { useState } from "react";
 import "./Protabs.css";
 import React from 'react'
-import prototyping from "../assets/prototyping.png";
 
-import modelling from "../assets/3d-modelling.png";
+import modelling1 from "../assets/3d-modelling1.webp";
 import modelling2 from "../assets/3d-modelling2.webp";
 import modelling3 from "../assets/3d-modelling3.webp";
 import modelling4 from "../assets/3d-modelling4.webp";
@@ -11,7 +10,6 @@ import modelling5 from "../assets/3d-modelling5.webp";
 import modelling6 from "../assets/3d-modelling6.webp";
 import modelling7 from "../assets/3d-modelling7.webp";
 import modelling8 from "../assets/3d-modelling8.webp";
-import modelling9 from "../assets/3d-modelling9.webp";
 
 
 import printed1 from "../assets/3dprinted1.webp";
@@ -38,7 +36,7 @@ const tabsData = [
     content:
       <div className="gallery">
         <div className="gallery-box">
-          <img src={modelling5} alt="3D Modelling Part 5" />
+          <img src={modelling1} alt="3D Modelling Part 1" />
         </div>
         <div className="gallery-box">
           <img src={printed1} alt="3D Printed Part 1" />
@@ -73,7 +71,42 @@ const tabsData = [
         <div className="gallery-box">
           <img src={prototype4} alt="Prototype Part 4" />
         </div>
-
+        <div className="gallery-box">
+          <img src={modelling5} alt="3D Modelling Part 5" />
+        </div>
+        <div className="gallery-box">
+          <img src={printed5} alt="3D Printed Part 5" />
+        </div>
+        <div className="gallery-box">
+          <img src={prototype5} alt="Prototype Part 5" />
+        </div>
+        <div className="gallery-box">
+          <img src={modelling6} alt="3D Modelling Part 6" />
+        </div>
+        <div className="gallery-box">
+          <img src={printed6} alt="3D Printed Part 6" />
+        </div>
+        <div className="gallery-box">
+          <img src={prototype6} alt="Prototype Part 6" />
+        </div>
+        <div className="gallery-box">
+          <img src={modelling7} alt="3D Modelling Part 7" />
+        </div>
+        <div className="gallery-box">
+          <img src={printed7} alt="3D Printed Part 7" />
+        </div>
+        <div className="gallery-box">
+          <img src={prototype7} alt="Prototype Part 7" />
+        </div>
+        <div className="gallery-box">
+          <img src={modelling8} alt="3D Modelling Part 8" />
+        </div>
+        <div className="gallery-box">
+          <img src={printed8} alt="3D Printed Part 8" />
+        </div>
+        <div className="gallery-box">
+          <img src={prototype8} alt="Prototype Part 8" />
+        </div>
       </div>
   },
   {
@@ -81,7 +114,7 @@ const tabsData = [
     content:
       <div className="gallery">
         <div className="gallery-box">
-          <img src={modelling5} alt="3D Modelling Part 5" />
+          <img src={modelling1} alt="3D Modelling Part 1" />
         </div>
         <div className="gallery-box">
           <img src={modelling2} alt="3D Modelling Part 2" />
@@ -93,6 +126,9 @@ const tabsData = [
           <img src={modelling4} alt="3D Modelling Part 4" />
         </div>
         <div className="gallery-box">
+          <img src={modelling5} alt="3D Modelling Part 5" />
+        </div>
+        <div className="gallery-box">
           <img src={modelling6} alt="3D Modelling Part 6" />
         </div>
         <div className="gallery-box">
@@ -101,11 +137,6 @@ const tabsData = [
         <div className="gallery-box">
           <img src={modelling8} alt="3D Modelling Part 8" />
         </div>
-        <div className="gallery-box">
-          <img src={modelling9} alt="3D Modelling Part 9" />
-        </div>
-
-
       </div>
   },
   {

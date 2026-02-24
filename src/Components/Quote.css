@@ -16,9 +16,9 @@
   font-weight: 700;
   margin-bottom: 20px;
 }
-.all-button.quote-btn
-{
- text-align: center;
- margin: auto;
- display: table;
+.all-button.quote-btn {
+    text-align: center;
+    margin: auto;
+    display: block;
+    width: 170px;
 }

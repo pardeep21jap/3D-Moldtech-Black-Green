@@ -10,6 +10,68 @@
 
 
 /* grid-css */
+.new-gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+  grid-template-rows: 1fr 1fr;
+  gap: 8px;
+  width: 100%;
+}
+.spiral-image{
+  width: 310px;
+  height: auto;
+  display: block;
+   border: 1px solid black;
+   border-radius: 24px;
+   overflow: hidden;
+   grid-row: span 2;
+}
+.spiral-image img
+{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.screw-image
+{
+  width: 310px;
+  height: 267px;
+  display: block;
+   border: 1px solid black;
+   border-radius: 24px;
+   overflow: hidden;
+   grid-column: 2;
+   grid-row: 1;
+}
+.screw-image img
+{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.nuts-image
+{
+  width: 310px;
+  height: 270px;
+  display: block;
+   border: 1px solid black;
+   border-radius: 24px;
+   overflow: hidden;
+   grid-column: 2;
+   grid-row: 2;
+}
+.nuts-image img
+{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
 
 .gallery-grid {
   display: grid;
@@ -55,12 +117,15 @@
   width: 100%;
   border-radius: 24px;
   overflow: hidden;
+  
 }
 
 .why-card {
-    background: linear-gradient(135deg, #0f1320, #000);
-    padding: 39px 35px;
+    background: black;
+    padding: 31px 34px;
     color: #fff;
+    border: 1px rgb(43, 45, 46) solid;
+    
 }
 
 .why-card:nth-child(2),
@@ -93,4 +158,8 @@
   line-height: 1.6;
   color: white;
   font-family: 'Roboto', sans-serif;
+}
+
+.all-button.quote-btn {
+  border: none;
 }

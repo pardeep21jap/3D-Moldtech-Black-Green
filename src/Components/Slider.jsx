@@ -8,7 +8,7 @@ import { Navigation, Pagination, Autoplay } from 'swiper/modules'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination';
 
-import icons from "../assets/icons.jpg";
+import icons from "../assets/icons11.png";
 
 
 

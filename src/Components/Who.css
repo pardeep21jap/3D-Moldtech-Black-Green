@@ -16,12 +16,12 @@ li
 {
   list-style-type: none;
   display: inline-block;
-  margin: 0 6px;
+  margin: 0 0px;
   font-family: 'Roboto', sans-serif;
 }
 .main-heading img {
-    width: 48px;
-   margin-bottom: 11px;
+    width: 40px;
+    margin-bottom: 14px;
 }
 .main-heading
 {
@@ -76,41 +76,17 @@ text-align: center !important;
   float: right;
   position: relative;
 }
-.semicircle1::after {
-  content: "";
-  position: absolute;
-  width: 138px;             /* half circle width */
-  height: 74px;             /* half circle height */
-  border-radius: 100px 100px 0 0; /* top half circle */
-  background: transparent;          /* color of half circle */
-  border: 1px solid lightgray;
-  top: 0px;               /* move above container */
-  left: 32%;
-  transform: translateX(-50%);
-  z-index: 1; /* ensure semicircle sits below the bird image */
-} 
+
 .box2
 {
   position: relative;
 }
-.semicircle2::after {
-  content: "";
-  position: absolute;
-  width: 138px;             /* half circle width */
-  height: 74px;             /* half circle height */
-  border-radius: 100px 100px 0 0;
-  border: 1px solid lightgray; /* top half circle */
-  background: transparent;          /* color of half circle */
-  top: 75px;               /* move above container */
-  left: 32%;
-  transform: translateX(-50%);
-  z-index: 1; /* ensure semicircle sits below the bird image */
-}
+
 
 /* stamp positioning and smooth rotation */
 .stamp-img {
     position: absolute;
-    top: 155px;
+    top: 60px;
     right: 12px;
     z-index: 2;
 }
